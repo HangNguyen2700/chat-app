@@ -8,21 +8,47 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 
 const SignIn = () => {
 
-    const paperStyle = { height: '80vh', width: '30vw', borderRadius: 30, backgroundColor:'#031e3a', color: '#ffff' };
+    const paperStyle = {
+        height: '80vh',
+        width: '30vw',
+        borderRadius: 30,
+        backgroundColor: '#031e3a',
+        color: '#ffff'
+    };
     const headerStyle = {
         backgroundColor: '#2DD2B3',
         padding: 30,
         fontSize: '60px',
         fontWeight: 'bold',
-        color:'#031e3a',
+        color: '#031e3a',
         borderTopLeftRadius: 30,
         borderTopRightRadius: 30
     };
     const ggBtnStyle = {
-        margin: 40, paddingRight: 15, paddingLeft: 10, width: '80%', borderRadius: 10,
-        fontSize: '25px', color: 'black',
+        margin: 40,
+        paddingRight: 15,
+        paddingLeft: 10,
+        width: '80%',
+        borderRadius: 10,
+        fontSize: '25px',
+        color: 'black'
     };
-    const inputStyle = { width: '80%', marginTop: 20, fontSize: '25px', color:'#ffff' }; //k doi dc color
+    const inputStyle = {
+        width: '80%',
+        marginTop: 20,
+        fontSize: '25px',
+        //color: '#ffff',
+        //backgroundColor: '#ffff'
+    }; //k doi dc color
+    const signInBtnStyle = {
+        marginTop: 30,
+        marginBottom: 10,
+        backgroundColor: '#2DD2B3',
+        width: '80%',
+        borderRadius: 10,
+        fontSize: '25px',
+        textTransform: 'none'
+    };
 
     return (
         <Grid container style={{ minHeight: "100vh" }}>
@@ -55,8 +81,8 @@ const SignIn = () => {
                             placeholder="Email"
                             InputProps={{
                                 startAdornment: (
-                                    <InputAdornment position="start">
-                                        <EmailIcon />
+                                    <InputAdornment position="start" >
+                                        <EmailIcon style={{ color: '#ffff' }}/>
                                     </InputAdornment>
                                 ),
                             }}
@@ -69,7 +95,7 @@ const SignIn = () => {
                             InputProps={{
                                 startAdornment: (
                                     <InputAdornment position="start">
-                                        <VisibilityIcon />
+                                        <VisibilityIcon style={{ color: '#ffff' }}/>
                                     </InputAdornment>
                                 ),
                             }}
@@ -78,15 +104,15 @@ const SignIn = () => {
                         />
 
                         <Grid container style={{ display: "flex", flexDirection: "row", marginTop: 10 }} justifyContent="space-around" alignItems="center">
-                            <FormControlLabel control={<Checkbox defaultChecked />} label="Remember me" />
+                            <FormControlLabel control={<Checkbox defaultChecked style={{ color: '#2DD2B3' }} />} label="Remember me" />
                             <Typography>
-                                <Link href='#'>Forgot password?</Link>
+                                <Link href='#' underline="none" color='#2DD2B3'>Forgot password?</Link>
                             </Typography>
                         </Grid>
 
-                        <Button variant="contained" style={{ marginTop: 30, marginBottom: 10, backgroundColor:'#2DD2B3' }}>Sign In</Button>
+                        <Button href="#" variant="contained" style={signInBtnStyle}>Sign In</Button>
                         <Typography> Don't have an Account?
-                            <Link href='#'> Sign Up</Link>
+                            <Link href='#' underline="none" color='#2DD2B3'> Sign Up</Link>
                         </Typography>
                     </Grid>
                 </Paper>
