@@ -1,13 +1,16 @@
 //import logo from './logo.svg';
 //import './App.css';
 import './components/style.css';
-import Demo from './components/demo.js'
-import SignIn from './components/signIn.js';
+import SignInScreen from './screens/signInScreen.js';
+import SignUpScreen from './screens/signUpScreen.js';
+import ChatScreen from './screens/chatScreen';
 
 function App() {
   return (
     <div className="App">
-    <SignIn/>
+    {/* <SignInScreen/> */}
+    {/* <SignUpScreen/> */}
+    
     </div>
   );
 }
