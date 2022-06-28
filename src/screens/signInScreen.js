@@ -6,7 +6,7 @@ import Input from '../components/input/index.js';
 import SubmitBtn from '../components/submitBtn/index.js';
 import Linking from '../components/linking/index.js';
 
-import { Grid, Paper, TextField, Button, FormControlLabel, Checkbox, Typography, Link, InputAdornment } from '@mui/material';
+import { Grid, Paper, FormControlLabel, Checkbox, Typography, Link } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
 import EmailIcon from '@mui/icons-material/Email';
 import VisibilityIcon from '@mui/icons-material/Visibility';
