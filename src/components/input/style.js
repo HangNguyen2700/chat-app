@@ -4,7 +4,7 @@ const inputStyle = {
   width: '80%',
   marginTop: 20,
   fontSize: '25px',
-  color: '#ffff'
+  color: '#ffff',
   //backgroundColor: '#ffff'
 }; //k doi dc color
 

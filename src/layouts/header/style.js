@@ -7,7 +7,7 @@ const headerStyle = {
   fontWeight: 'bold',
   color: '#031e3a',
   borderTopLeftRadius: 30,
-  borderTopRightRadius: 30
+  borderTopRightRadius: 30,
 };
 
 export default headerStyle;

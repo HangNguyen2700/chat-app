@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ggBtnStyle = {
+const googleButtonStyle = {
   marginTop: 50,
   marginBottom: 30,
   paddingRight: 15,
@@ -8,7 +8,7 @@ const ggBtnStyle = {
   width: '80%',
   borderRadius: 10,
   fontSize: '25px',
-  color: 'black'
+  color: 'black',
 };
 
-export default ggBtnStyle;
+export default googleButtonStyle;

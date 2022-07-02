@@ -3,7 +3,7 @@ import { Grid, Typography, Avatar } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import SettingsIcon from '@mui/icons-material/Settings';
 
-const MenuBar = (props) => {
+export const ChatHeader = (props) => {
   return (
     <Grid container>
       <MenuIcon fontSize="large" />
@@ -18,5 +18,3 @@ const MenuBar = (props) => {
     </Grid>
   );
 };
-
-export default MenuBar;

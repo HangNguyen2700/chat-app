@@ -1,6 +1,6 @@
 import React from 'react';
 
-const signInBtnStyle = {
+const submitButtonStyle = {
   marginTop: 50,
   marginBottom: 10,
   backgroundColor: '#2DD2B3',
@@ -8,7 +8,7 @@ const signInBtnStyle = {
   borderRadius: 10,
   fontSize: '25px',
   fontWeight: 'bold',
-  textTransform: 'none'
+  textTransform: 'none',
 };
 
-export default signInBtnStyle;
+export default submitButtonStyle;
