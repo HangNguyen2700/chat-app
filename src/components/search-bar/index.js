@@ -6,7 +6,7 @@ import SearchIcon from '@mui/icons-material/Search';
 export const SearchBar = () => {
   //return <TextField id="outlined-basic" placeholder="Search" variant="outlined" style={searchBarStyle} />;
   return (
-    <FormControl sx={{ m: 1, width: '25ch' }} variant="outlined">
+    <FormControl sx={{ m: 1, width: '95%' }} variant="outlined">
       <OutlinedInput
         id="outlined-adornment-weight"
         style={searchBarStyle}

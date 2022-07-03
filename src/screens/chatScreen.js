@@ -5,17 +5,17 @@ import { Grid } from '@mui/material';
 
 const ChatScreen = () => {
   return (
-    <Grid container>
-      <Grid item>
+    <Grid container height="100vh">
+      <Grid item style={{ borderBottom: '1px solid #fff' }}>
         <ChatHeader img="/broken-image.jpg" name="Hung Vinh Dang" />
       </Grid>
 
-      <Grid container item>
-        <Grid container item xs={4} style={{ minHeight: '100vh' }}>
+      <Grid container item style={{ height: '92%' }}>
+        <Grid container item xs={3} style={{ borderRight: '1px solid #fff' }}>
           <FriendsbarExpand />
         </Grid>
 
-        <Grid container item xs={8} alignContent="flex-start">
+        <Grid container item xs={9} alignContent="flex-start">
           <ChattingFriendHeader img="/broken-image.jpg" name="Hang Nguyen Nguyen" />
           <Grid></Grid>
         </Grid>
